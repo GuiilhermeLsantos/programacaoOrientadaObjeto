@@ -7,8 +7,6 @@
 #Veja um exemplo da estrutura do dicionário.
 #{1901502: [10, 8, 7.5], 2002441: [6, 5, 7.5], 2001332: [5, 8, 9.5]}
 
-from stat import IO_REPARSE_TAG_APPEXECLINK
-
 alunos = {}
 
 for n in range(5):
