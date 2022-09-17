@@ -3,12 +3,11 @@
 #Faça um programa para criar um objeto da classe Televisao e testar a sua classe.
 # Veja abaixo um trecho de programa que utiliza a classe:
 
-
 class Televisão:
     def __init__(self):
 
-        self.canal = None     # valor pre definido
-        self.volume = 0       # valor pre definido
+        self.canal = None 
+        self.volume = 0  
         
 
     def aumentar_volume(self):
@@ -26,6 +25,6 @@ tv.aumentar_volume()
 tv.aumentar_volume()
 tv.aumentar_volume()
 tv.diminuir_volume()
-print(f'A tv está no canal {tv.canal}')             # A tv está no canal 5
-print(f'A tv está no volume {tv.volume}')           # A tv está no volume 2
+print(f'A tv está no canal {tv.canal}') 
+print(f'A tv está no volume {tv.volume}') 
 
