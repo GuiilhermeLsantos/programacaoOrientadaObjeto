@@ -8,20 +8,15 @@
 # A função deve retornar o seguinte dicionário:
 # {'a': 5, 'u': 1, 'e': 3, 'o': 2, 'i': 2}
 
-# exemplo de como percorrer uma string
-# texto = 'faculdade de tecnologia impacta'
-# for caractere in texto:
-#   if caractere == 'a':	
-
 
 def conta_vogais(texto):
     dicionario = {}
     lista_vogais = 'aeiou'
 
-    for letra in texto: # percorre caracter
-        letra = letra.lower() # converte em minusculo
-        if letra in lista_vogais:  # se é uma vogal
-            if letra in dicionario: # se está no dicionario 
+    for letra in texto:
+        letra = letra.lower()
+        if letra in lista_vogais:
+            if letra in dicionario: 
                 dicionario[letra] += 1
             else:
                 dicionario[letra] = 1
