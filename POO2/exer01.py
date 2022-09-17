@@ -1,5 +1,8 @@
+#Crie dois objetos da classe Carro
+#Utilize o método exibir_dados para exibir no terminal os atributos dos carros.
+
 class Carro:
-    # Construtor
+    
     def __init__(self, marca, modelo, placa):
 
         self.marca = marca
@@ -10,8 +13,7 @@ class Carro:
          print("-----------------")
          print(self.marca, self.modelo, self.placa)
 
-# Criação dos Objetos
-Carro1 = Carro ("Hyundai", "Creta", "fks-4057")
+Carro1 = Carro ("Hyundai", "Creta", "fks-4925")
 carro2 = Carro ("BMW", "X1", "Efw-6010")
 
 Carro1.exibir_dados(),carro2.exibir_dados()
