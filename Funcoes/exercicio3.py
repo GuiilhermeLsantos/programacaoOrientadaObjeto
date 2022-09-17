@@ -8,3 +8,4 @@ a = int(input())
 b = int(input())
 
 print (quadrado(a,b))
+print("teste")
