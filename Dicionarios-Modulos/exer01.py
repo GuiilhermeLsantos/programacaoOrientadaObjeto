@@ -7,7 +7,6 @@
 # Veja um exemplo da estrutura do dicionário.
 # {'Caneta': 3.0, 'Pen Drive': 100.0, 'Teclado': 30.0}
 
-
 produtos = {}
 
 for n in range(5):
