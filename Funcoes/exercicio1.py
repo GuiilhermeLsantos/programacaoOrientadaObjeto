@@ -1,5 +1,5 @@
-from re import X
-
+#Implemente a função somar que recebe dois números e retorna o resultado da soma desses dois números.
+#Lembre-se que para retornar um resultado a função deve utilizar a instrução return.
 
 def somar (a, b):
     c = a + b
